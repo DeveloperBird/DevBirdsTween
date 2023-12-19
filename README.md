@@ -4,6 +4,14 @@ DevBirdsTween is a lightweight Unity library crafted to streamline the manipulat
 
 Unlock the potential for seamless object animations, enhance your Unity development workflow, and experience the power of DevBirdsTween for efficient, hassle-free animations.
 
+### Example of Boxes moving using Tween.Move() with different Easing types.
+
+![](https://i.imgur.com/OWhFfgG.gif)
+
+### Example of different animations by chaining together Tweens.
+
+![](https://i.imgur.com/iO3IVGw.gif)
+
 ## How to Install
 1. Clone the project.
 2. Extract the project.
@@ -16,7 +24,7 @@ Unlock the potential for seamless object animations, enhance your Unity developm
 4. Populate the required parameters.
 5. Execute the method.
 
-Example Code using Tween
+### Example Code using Tween
 
 ```csharp
 using System;
@@ -39,7 +47,7 @@ class ExampleClass : MonoBehaviour
 
 In this example, a cube is created and moved to a specified position over a 5-second duration. The cube will ease out, and the message "Tween has completed!" will be logged after the tweening is finished.
 
-## How to create your own Tweens
+## How to create your own Custom Preset Tweens
 
 You can craft your own premade tween methods by adding a method inside the Tween script. Optionally, you can create an extension method to separate your methods from the core library.
 
