@@ -27,7 +27,7 @@ Unlock the potential for seamless object animations, enhance your Unity developm
 ### Example Code using Tween
 
 ```csharp
-using System;
+using DevBird.Tween;
 
 class ExampleClass : MonoBehaviour
 {
